@@ -1,0 +1,28 @@
+<footer id="footer" class="bg-dark noPadding" style="bottom:0;">
+  <div class="copyright text-center text-muted">
+    <ul class="noListStyle listBlock">
+      <li>
+        <a class="link text-blue" href="http://twitter.com/DiseaseOutbreak" target="_blank">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a class="link text-blue" href="https://github.com/outbreak-info" target="_blank">
+          <i class="fab fa-github-alt fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+    <hr />
+    <p class="smallFont">
+      All content copyright <a href="http://mygene.info/" class="link text-blue">Outbreak.info</a> © <span id="year"></span> <br /> All rights reserved.
+      <a href="/terms" class="link text-blue">Terms of use.</a>
+      <a href="/citation/" class="link text-blue">How To Cite</a>
+    </p>
+  </div>
+</footer>
+<script>
+var currentTime = new Date()
+var year = currentTime.getFullYear()
+var myelement = document.getElementById("year");
+    myelement.innerHTML= year;
+</script>
