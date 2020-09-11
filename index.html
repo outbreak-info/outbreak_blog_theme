@@ -62,13 +62,13 @@
 </style>
 
 <div data-v-0165a2cc="" data-v-424330ce="" class="home flex-column text-left d-flex main">
-    <section data-v-0165a2cc=""><div data-v-0165a2cc="" class="row m-0"><div data-v-0165a2cc="" class="col-sm-12 d-flex justify-content-center align-items-center bg-main__darker px-0 back-1"><img data-v-0165a2cc="" src="/static/img/logo-full-white.svg" alt="Outbreak.info" class="w-25"></div></div></section>
+    <section data-v-0165a2cc=""><div data-v-0165a2cc="" class="row m-0"><div data-v-0165a2cc="" class="col-sm-12 d-flex justify-content-center align-items-center bg-main__darker px-0 back-1"><h2 class="text-light">What's New</h2></div></div></section>
 
 
 <!-- Section -->
 <section id="blog" class="main accent bg-light">
 	<header id="news" class="text-center padding20">
-		<h2 class="text-muted lighter padding20 anchorLink">What's New <a style="font-size:small !important;opacity:0;"></a></h2>
+		<h2 class="text-muted lighter padding05 anchorLink"></h2>
 	</header>
 	<div class="inner">
 		<div class="posts">
@@ -87,19 +87,18 @@
 						</a>
 						<p class="text-muted">{{post.html|striptags|truncate(100)}}</p>
 						<ul class="actions">
-							<li><a href="/blog/{{post.slug}}" class="btn btn-dark text-blue btn-sm small">More</a></li>
+							<li><a href="/blog/{{post.slug}}" class="btn btn-dark text-light btn-sm small">More</a></li>
 						</ul>
 					</div>
 				</article>
 			</div>
 			{% endfor %}
 		</div>
-		<p class="more_news" style="padding-bottom:40px;"><a href="/blog"
-				class="mainButton special fit small">More&nbspNews</a></p>
+        <p data-v-0165a2cc="" class="text-center"><a data-v-0165a2cc="" href="/blog" class="btn btn-main m-5">More&nbsp;News</a></p>
 	</div>
 </section>
 
-<section class="text-light" style="background-color: var(--blue-medium); padding: 20px 10%;">
+<section class="text-light" style="background-color: #507192; padding: 20px 10%;">
 	<p class="noMargin padding20">
 		<b class="text-light">Medical Disclaimer: This resource is intended for purely research purposes. It should not
 			be used for emergencies or medical or professional advice.</b>

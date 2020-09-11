@@ -1,3 +1,4 @@
+
 #app[data-v-424330ce] {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -391,6 +392,7 @@ p.focustext[data-v-424330ce] {
 .link[data-v-424330ce] {
     color: #007bff !important;
     cursor: pointer;
+    text-decoration: none;
 }
 .link[data-v-424330ce]:hover {
     color: #0056b3 !important;
@@ -1283,6 +1285,7 @@ p.focustext {
 }
 .link {
     color: #007bff !important;
+    text-decoration: none;
 }
 .link:hover {
     color: #0056b3 !important;
@@ -3235,3 +3238,331 @@ button.chip.to-add:hover .add-btn[data-v-0165a2cc] {
 .add-items[data-v-0165a2cc] {
     height: 120px;
 }
+
+
+
+
+
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('DM Sans Italic'), local('DMSans-Italic'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Fp2ywxg089UriCZa4ET-DNl0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('DM Sans Italic'), local('DMSans-Italic'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Fp2ywxg089UriCZa4Hz-D.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('DM Sans Bold Italic'), local('DMSans-BoldItalic'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Ap2ywxg089UriCZawpBqWB3wTyCg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('DM Sans Bold Italic'), local('DMSans-BoldItalic'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Ap2ywxg089UriCZawpBqWCXwT.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('DM Sans Regular'), local('DMSans-Regular'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Hp2ywxg089UriCZ2IHSeH.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('DM Sans Regular'), local('DMSans-Regular'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Hp2ywxg089UriCZOIHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('DM Sans Medium'), local('DMSans-Medium'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Cp2ywxg089UriAWCrCBamC2QX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('DM Sans Medium'), local('DMSans-Medium'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Cp2ywxg089UriAWCrCBimCw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('DM Sans Bold'), local('DMSans-Bold'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Cp2ywxg089UriASitCBamC2QX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('DM Sans Bold'), local('DMSans-Bold'), url(https://fonts.gstatic.com/s/dmsans/v5/rP2Cp2ywxg089UriASitCBimCw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+/* customzed css from original theme */
+#header > .logo a {
+	display: inline;
+}
+
+.center {
+	text-align: center;
+}
+
+.fade {
+	opacity: 0.9;
+}
+
+#banner .content.secondary {
+	padding: 2.5em 0 2.5em 0;
+}
+#banner .content.secondary h3 {
+	margin-bottom: 2rem;
+}
+
+.accent2 a {
+	color: white !important;
+}
+
+.circular-image {
+	display: block;
+  text-align: center;
+}
+
+.circular-image img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+		display: block;
+		margin: auto;
+}
+
+.circular-image .team-intro {
+	height: 40px;
+}
+
+#five .inner {
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.spotlight > .image img {
+  border-radius: 0%;
+}
+
+.more_news {
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	max-width: 300px;
+}
+.more_news .button{
+}
+
+.post-inner {
+	padding: 0 !important;
+}
+
+.post-inner .content {
+	padding: 1rem 3rem 1rem 3rem !important;
+}
+
+.post-inner .content img, .post-inner .content video{
+	display: block;
+  margin: 1.5em auto;
+  max-width: 1040px;
+}
+
+.share {
+	font-size: 1em;
+	text-align: right;
+	margin-right: 1rem;
+}
+
+.share ul {
+	margin: 0 2em 0 0 !important;
+}
+
+.share ul li {
+	margin: 0;
+	padding: 0;
+}
+
+.share a {
+	border-bottom: 0px;
+}
+
+button.tiny,
+.button.tiny {
+	font-size: 0.6rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	border-radius: 1.2rem;
+	padding: 0 1rem;
+	box-shadow: inset 0 0 0 2px #23b1ec;
+}
+
+pre {
+	background: none !important;
+}
+code {
+  background: #f5f2f0 !important;
+}
+
+
+.post_box {
+	box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  transition: all .5s ease;
+}
+.post_box:hover {
+	box-shadow: 0 0 1px rgba(39,44,49,0.10), 0 3px 16px rgba(39, 44, 49,0.07);
+	transition: all 0.3s ease;
+  transform: translate3D(0, -1px, 0);
+}
+.post_box a:hover {
+	color: #3b3b3b !important;
+}
+.post_box .content {
+	padding: 2rem 1rem 0.1rem 1rem !important;
+}
+.post_box ul.actions{
+	float: right;
+}
+.primary_tag {
+	float: left;
+	margin-left: 1rem;
+	margin-bottom: 4px;
+	color: #738a94;
+	font-size: 0.6rem;
+	line-height: 1.15em;
+	font-weight: 600;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+.post_author_img{
+	margin-right: 5px;
+	width: 36px;
+	height: 36px;
+	border-radius: 100%;
+	object-fit: cover;
+	vertical-align: middle;
+}
+.post_author {
+	font-size: 0.8rem;
+	font-weight: 500;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+
+.team_footer {
+	position: relative;
+}
+.team_footer p {
+	position: absolute;
+  bottom: 0;
+}
+
+/*
+	CSS loader
+	https://codepen.io/Ally__Baird/pen/dXyOrY
+*/
+.loading {
+	display: none;
+	font-size: 100%;
+	margin: 0;
+	text-align: center;
+	line-height: 1px;
+}
+.loading .wrapper {
+	height: 50px;
+	margin-top: 0px; /*calc(50vh - 25px);*/
+	margin-left: calc(50vw - 100px);
+	width: 180px;
+}
+.loading .circle {
+	border-radius: 50%;
+	border: 3px #0a0a0a solid;
+	float: left;
+	height: 50px;
+	margin: 0 5px;
+	width: 50px;
+}
+ .loading .circle-1 {
+		animation: move 1s ease-in-out infinite;
+	}
+ .loading .circle-1a {
+		animation: fade 1s ease-in-out infinite;
+	}
+	@keyframes fade {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+ .loading .circle-2 {
+		animation: move 1s ease-in-out infinite;
+	}
+	@keyframes move {
+		0% {transform: translateX(0);}
+		100% {transform: translateX(60px);}
+	}
+ .loading .circle-1a {
+		margin-left: -55px;
+		opacity: 0;
+	}
+ .loading .circle-3 {
+		animation: circle-3 1s ease-in-out infinite;
+		opacity: 1;
+	}
+	@keyframes circle-3 {
+		0% {opacity: 1;}
+		100% {opacity: 0;}
+	}
+  .loading p {
+		color: #222;
+		font-size: 15px;
+		font-weight: 400;
+		letter-spacing: 0.05em;
+		margin: 40px auto;
+		text-transform: uppercase;
+	}
+

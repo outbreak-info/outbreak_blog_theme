@@ -1,10 +1,10 @@
 {% extends "main.html" %}
 {% block content %}
 <!-- Section -->
-  <section class="main accent bg-dark">
-    <header style="padding-top: 20vh;">
-      <div style="width: 100px;"><object id="my-svg" type="image/svg+xml" data="/static/img/mygene-api.svg"></object></div>
-      <h2 class="text-blue smallCaps">What's new</h2>
+  <section class="main accent bg-bluegrey">
+    <header style="padding-top: 14vh;">
+      <div style="width: 100px;"><object id="my-svg" type="image/svg+xml"></object></div>
+      <h2 class="text-light">Most Recent Posts</h2>
       {% if tag %}
       <div class="text-light">
         Filtered by <a href="/blog?tag={{tag.slug}}" class="smallButton"><i class="fas fa-tag text-blue"></i> {{tag.name}}</a>
@@ -13,7 +13,7 @@
       {% if author %}
       <div class="text-light">
         {% if author.website %}
-          Authored by <a class="text-blue link" href="{{author.website}}">{{author.name}}</a>
+          Authored by <a class="text-light link" href="{{author.website}}">{{author.name}}</a>
         {% else %}
           Authored by {{author.name}}
         {% endif %}

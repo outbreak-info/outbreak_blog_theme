@@ -2823,13 +2823,13 @@ fieldset:disabled a.btn {
 
 .btn-dark:hover {
   color: #fff;
-  background-color: #23272b;
+  background-color: #114068;
   border-color: #1d2124;
 }
 
 .btn-dark:focus, .btn-dark.focus {
   color: #fff;
-  background-color: #23272b;
+  background-color: #114068;
   border-color: #1d2124;
   box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
@@ -6770,6 +6770,16 @@ a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #1d2124 !important;
+}
+
+.bg-bluegrey {
+  background-color: #507192 !important;
+}
+
+a.bg-bluegrey:hover, a.bg-grey:focus,
+button.bg-bluegrey:hover,
+button.bg-bluegrey:focus {
+  background-color: #507192 !important;
 }
 
 .bg-white {
