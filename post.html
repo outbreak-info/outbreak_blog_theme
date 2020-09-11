@@ -8,7 +8,6 @@
 		{% set post_desc|striptags|truncate(300) %}{{post.html}}{% endset %}
 		{% set published_at = post['published_at'].isoformat() %}
 		{% set updated_at = post['updated_at'].isoformat() %}
-		<link rel="stylesheet" href="/static/css/prism.css" />
     <link rel="canonical" href="{{post_url}}" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
     <meta property="og:site_name" content="{{site_name}}" />
@@ -38,12 +37,10 @@
 		    "publisher": {
 		        "@type": "Organization",
 		        "name": "{{site_name}}"
-		        //"logo": "http://wulab.io/content/images/2017/04/biothings_logo_316.png"
 		    },
 		    "author": {
 		        "@type": "Person",
 		        "name": "{{post.primary_author.name}}",
-		        //"url": "http://wulab.io/author/cyrus-afrasiabi/",
 		        "sameAs": []
 		    },
 		    "headline": "{{post.title|e}}",

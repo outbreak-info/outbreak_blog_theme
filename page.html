@@ -29,7 +29,6 @@
     <meta name="twitter:data1" content="{{post.primary_author.name}}" />
     <meta name="twitter:label2" content="Filed under" />
     <meta name="twitter:data2" content="{{post.tags|join(', ', attribute='name')}}" />
-    <!--<meta name="twitter:site" content="@biothingsapi" />-->
 
     <script type="application/ld+json">
 		{
@@ -38,12 +37,10 @@
 		    "publisher": {
 		        "@type": "Organization",
 		        "name": "{{site_name}}"
-		        //"logo": "http://wulab.io/content/images/2017/04/biothings_logo_316.png"
 		    },
 		    "author": {
 		        "@type": "Person",
 		        "name": "{{post.primary_author.name}}",
-		        //"url": "http://wulab.io/author/cyrus-afrasiabi/",
 		        "sameAs": []
 		    },
 		    "headline": "{{post.title|e}}",
