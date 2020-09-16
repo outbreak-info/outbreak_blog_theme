@@ -1,17 +1,79 @@
 {% extends "main.html" %}
 {% block content %}
 <!-- Section -->
+<style type="text/css">
+	.asterisk {
+		vertical-align: sub;
+	}
+
+	.vertical-align {
+		vertical-align: middle;
+	}
+
+	.usingBox img {
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+		padding: 10px;
+		transition: all .5s;
+	}
+
+	.usingBox img:hover {
+		filter: none;
+	}
+
+	.usingContainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 40px;
+	}
+
+	.usingBox {
+		flex: 1;
+		flex-basis: 250px;
+		max-width: 250px;
+		padding: 10px;
+		vertical-align: middle;
+	}
+
+	.usingBox img {
+		width: 90%;
+	}
+
+	@media only screen and (max-width: 600px) {
+
+		.usingContainer {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			padding: 5px;
+		}
+
+		.usingBox {
+			flex: 1;
+			flex-basis: 40%;
+			max-width: 40%;
+			padding: 2px;
+			vertical-align: middle;
+		}
+	}
+</style>
+
+<div data-v-0165a2cc="" data-v-424330ce="" class="home flex-column text-left d-flex main">
+    <section data-v-0165a2cc=""><div data-v-0165a2cc="" class="row m-0"><div data-v-0165a2cc="" class="col-sm-12 d-flex justify-content-center align-items-center bg-main__darker px-0 back-1"><h2 class="text-light">What's New</h2></div></div></section>
+
   <section class="main accent bg-bluegrey">
-    <header style="padding-top: 14vh;">
+    <header style="padding-top: 4vh; padding-bottom: 4vh;">
       <div style="width: 100px;"><object id="my-svg" type="image/svg+xml"></object></div>
-      <h2 class="text-light">Most Recent Posts</h2>
       {% if tag %}
-      <div class="text-light">
+      <div class="text-light col-sm-12 d-flex justify-content-center align-items-center" >
         Filtered by <a href="/blog?tag={{tag.slug}}" class="smallButton"><i class="fas fa-tag text-blue"></i> {{tag.name}}</a>
       </div>
       {% endif %}
       {% if author %}
-      <div class="text-light">
+      <div class="text-light col-sm-12 d-flex justify-content-center align-items-center">
         {% if author.website %}
           Authored by <a class="text-light link" href="{{author.website}}">{{author.name}}</a>
         {% else %}
